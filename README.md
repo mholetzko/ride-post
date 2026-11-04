@@ -30,4 +30,4 @@ Open the hosted app in **Safari**, tap **Share**, then **Add to Home Screen**. T
 
 This project was built collaboratively by its owner and OpenAI Codex. AI assisted with implementation, documentation, and testing; the owner directs the project and is responsible for reviewing and using the output. See [AI_HELP.md](AI_HELP.md) for contributor guidance and privacy boundaries.
 
-PDF parsing uses [PDF.js](https://github.com/mozilla/pdf.js) (Apache-2.0) and PDF export uses [pdf-lib](https://github.com/Hopding/pdf-lib) (MIT); their license texts are in `vendor/`.
+PDF parsing uses the compatibility build of [PDF.js](https://github.com/mozilla/pdf.js) 4.8.69 (Apache-2.0) and PDF export uses [pdf-lib](https://github.com/Hopding/pdf-lib) (MIT); their license texts are in `vendor/`.
