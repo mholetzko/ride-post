@@ -1,0 +1,15 @@
+*
+!server.py
+!index.html
+!app.js
+!styles.css
+!install.js
+!invoice.html
+!invoice.js
+!invoice.css
+!manifest.webmanifest
+!assets/
+!assets/**
+!vendor/
+!vendor/**
+!Dockerfile
