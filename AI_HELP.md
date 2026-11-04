@@ -6,7 +6,7 @@ Ride Post was developed with OpenAI Codex in collaboration with its owner. AI-ge
 
 - `index.html`, `styles.css`, `app.js`: social post editor and locally stored photos.
 - `server.py`: Python standard-library server and public CodexFit/Wikimedia integrations.
-- `invoice.html`, `invoice.css`, `invoice.js`: browser-only payroll import, template handling and invoice PDF export.
+- `invoice.html`, `invoice.css`, `invoice.js`, `invoice-pdf.js`: browser-only payroll import, template handling and invoice PDF export.
 - `install.js`, `manifest.webmanifest`, `assets/`: install guidance and web app metadata.
 - `vendor/`: locally served PDF dependencies and their licenses.
 

@@ -196,7 +196,7 @@ class Handler(BaseHTTPRequestHandler):
             if parsed.path == '/api/events':
                 week = args.get('week', [''])[0]
                 return self.send_data(weekly_events(week, args.get('instructor', ['matthias-eng'])[0]))
-            static = {path: name for path, name in [('/', 'index.html'), ('/index.html', 'index.html'), ('/invoice', 'invoice.html'), ('/invoice.html', 'invoice.html'), *[('/' + name, name) for name in ('app.js', 'styles.css', 'install.js', 'invoice.js', 'invoice.css', 'manifest.webmanifest', 'assets/icon-192.png', 'assets/icon-512.png', 'assets/apple-touch-icon.png', 'vendor/pdf.min.mjs', 'vendor/pdf.worker.min.mjs', 'vendor/pdf-lib.min.js')]]}
+            static = {path: name for path, name in [('/', 'index.html'), ('/index.html', 'index.html'), ('/invoice', 'invoice.html'), ('/invoice.html', 'invoice.html'), *[('/' + name, name) for name in ('app.js', 'styles.css', 'install.js', 'invoice.js', 'invoice-pdf.js', 'invoice.css', 'manifest.webmanifest', 'assets/icon-192.png', 'assets/icon-512.png', 'assets/apple-touch-icon.png', 'vendor/pdf.min.mjs', 'vendor/pdf.worker.min.mjs', 'vendor/pdf-lib.min.js')]]}
             name = static.get(parsed.path)
             if not name:
                 return self.send_data({'error': 'Nicht gefunden.'}, 404)
