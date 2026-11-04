@@ -8,15 +8,17 @@
   <meta name="apple-mobile-web-app-title" content="Ride Post">
   <link rel="manifest" href="/manifest.webmanifest">
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
-  <title>Ride Post — Dein Wochenplan</title>
+  <title>The Motivator Hub — by Ride Post</title>
   <link rel="stylesheet" href="styles.css">
   <script src="app.js" defer></script>
 </head>
 <body>
-  <header class="topbar"><a class="brand" href="/" aria-label="Ride Post Startseite"><span class="brand-icon">↗</span> RIDE POST<span class="brand-dot">.</span></a><span class="topbar-note">DEIN WOCHENPLAN FÜR INSTAGRAM</span><a class="top-invoice" href="/invoice">RECHNUNG</a><button class="install-button" id="install-app" type="button">APP INSTALLIEREN ↗</button><span class="local-badge"><span></span> FOTOS LOKAL</span></header>
+  <header class="topbar"><a class="brand" href="/" aria-label="Ride Post Startseite"><span class="brand-icon">↗</span> RIDE POST<span class="brand-dot">.</span></a><span class="topbar-note">TOOLS FOR THE PEOPLE WHO MOVE PEOPLE</span><a class="top-invoice" href="/invoice">INVOICING</a><button class="install-button" id="install-app" type="button">APP INSTALLIEREN ↗</button><span class="local-badge"><span></span> FOTOS LOKAL</span></header>
   <dialog id="install-dialog" class="install-dialog"><div class="install-dialog-head"><span class="step">RIDE POST AUF DEINEM HANDY</span><button id="install-close" type="button" aria-label="Schließen">×</button></div><h2>Immer ready to ride.</h2><p>Auf dem iPhone in <strong>Safari</strong> öffnen, auf <strong>Teilen</strong> tippen und <strong>„Zum Home-Bildschirm“</strong> wählen.</p><p class="settings-hint">Bereits im Browser gespeicherte Fotos sind in der installierten App eventuell nicht verfügbar. Du kannst sie dort erneut auswählen.</p><button id="install-ok" class="settings-save" type="button">VERSTANDEN</button></dialog>
   <main class="workspace">
-    <section class="intro"><div><p class="eyebrow"><span>01</span> &nbsp; DEIN NÄCHSTER POST</p><h1>Let's ride<span>.</span></h1><p class="intro-copy">Deine Classes, deine Tracks, deine Tipps. Wähle eine Vorlage und gestalte deinen Post.</p></div><div class="intro-mark" aria-hidden="true">↗</div></section>
+    <section class="intro"><div><p class="eyebrow"><span>THE MOTIVATOR HUB</span> &nbsp; / &nbsp; BY RIDE POST</p><h1>More ride.<br>Less admin<span>.</span></h1><p class="intro-copy">Dein Space für alles neben dem Bike: Content erstellen, Rechnungen erledigen und mehr Zeit für deine Community haben.</p></div><div class="intro-mark" aria-hidden="true">↗</div></section>
+    <nav class="hub-nav" aria-label="Motivator Hub Bereiche"><a class="hub-card active" href="/" aria-current="page"><span class="hub-card-number">01 / GET CREATIVE</span><strong>Create Posts <span>↗</span></strong><small>Classes, Song Drops &amp; Ride Notes</small></a><a class="hub-card" href="/invoice"><span class="hub-card-number">02 / GET IT DONE</span><strong>Invoicing <span>↗</span></strong><small>Payroll rein, Rechnung raus</small></a></nav>
+    <div class="editor-label"><span>CREATE POSTS</span><span>DEIN STUDIO FÜR CONTENT ↘</span></div>
     <div class="main-grid">
       <section class="controls" aria-label="Post gestalten">
         <div class="panel content-panel"><div class="panel-head"><div><span class="step">DEIN CONTENT</span><h2>Was steht an?</h2></div><span class="panel-icon">↗</span></div><div class="content-selector" role="group" aria-label="Content-Vorlage auswählen"><button type="button" id="mode-week" aria-pressed="true"><strong>01</strong><span>WEEKLY<br><small>Deine Classes</small></span></button><button type="button" id="mode-song" aria-pressed="false"><strong>02</strong><span>SONG DROP<br><small>Dein Track</small></span></button><button type="button" id="mode-ride" aria-pressed="false"><strong>03</strong><span>RIDE NOTES<br><small>Dein Tipp</small></span></button></div></div>
